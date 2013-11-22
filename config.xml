@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		    = "org.artofliving.recepies"
+	version 	= "4.1"
+	versionCode = "1">
+
+	<name>Ashram Guide</name>
+
+	<description>
+        A guide to the Art of Living Bangalore Ashram: 1) Must See Places  2) Facilities  3) Get Directions  4) Live webcast and transcription  5) Calendar(Courses and Events) 6) Contacts  7) FAQs about Bangalore Ashram  8) Art of Living
+	</description>
+
+	<author href="" email="mithiljadhav@yahoo.co.in">
+		Mithil Jadhav
+	</author>
+
+  <icon src="images/icons/ic_launcher/mdpi.png" gap:platform="android" gap:density="mdpi" />
+  <icon src="images/icons/ic_launcher/hdpi.png" gap:platform="android" gap:density="hdpi" />
+  <icon src="images/icons/ic_launcher/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+  <icon src="images/icons/ic_launcher/xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+
+  <!--<gap:splash src="splash.png" />
+  -->
+  
+  <preference name="exit-on-suspend" value="false" />
+
+  <preference name="orientation" value="portrait" />
+  
+  <preference name="load-url-timeout" value="60000" />
+  
+  <preference name="android-targetSdkVersion" value="17" />
+  <preference name="android-minSdkVersion" value="10" />
+  
+  
+  <feature name="http://api.phonegap.com/1.0/geolocation"/>
+  
+  <!--<gap:plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+  -->
+  
+  
+  <!--<gap:plugin name="ChildBrowser" />
+  Deprecated..Use InAppBrowser instead
+  -->
+ <!-- <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+  -->
+  
+  <!--<gap:plugin name="org.apache.cordova.InAppBrowser" />
+  <gap:plugin name="org.apache.cordova.core.geolocation"/>-->
+  
+</widget>
